@@ -1,1 +1,12 @@
+:root {
+  --basic-font: "Poppins", sans-serif;
+  --headings-font: "Playfair Display", serif;
+}
 
+h1 {
+  font-family: var(--headings-font);
+  font-weight: bold;
+}
+p {
+  font-family: var(--basic-font);
+}
