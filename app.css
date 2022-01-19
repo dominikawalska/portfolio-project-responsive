@@ -1,12 +1,35 @@
 :root {
   --basic-font: "Poppins", sans-serif;
   --headings-font: "Playfair Display", serif;
+  --primary-color: #ebebe3;
+  --secondary-color: #2b2b28;
 }
 
 h1 {
   font-family: var(--headings-font);
   font-weight: bold;
+  font-size: 96px;
+  color: var(--secondary-color);
 }
+
 p {
   font-family: var(--basic-font);
+}
+.page-hero p {
+  font-family: var(--basic-font);
+  line-height: 1;
+  font-size: 36px;
+}
+
+.page-hero {
+  text-align: center;
+  background-color: #ebebe3;
+  padding: 100px 20px;
+}
+
+.main-picture {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin-bottom: 20px;
 }
