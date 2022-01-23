@@ -19,18 +19,26 @@ h5 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 64px;
 }
 
 .page-hero h2 {
   font-size: 24px;
   font-weight: normal;
   font-family: var(--basic-font);
-  line-height: 2;
+  line-height: 1;
+  margin-top: 20px;
 }
 
 p {
   font-family: var(--basic-font);
-  color: var(--secondary-color);
+  color: rgb(43, 43, 40, 0.7);
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .page-hero {
@@ -47,8 +55,45 @@ p {
 }
 
 .btn-branding {
-  background-color: var(--third-color);
-  color: white;
   padding: 15px 30px;
   font-size: 18px;
+  line-height: 27px;
+}
+
+.main-button {
+  background-color: var(--third-color);
+  color: white;
+}
+
+.project-button {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.description-section {
+  padding: 120px 60px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .page-hero {
+    padding: 80px 20px;
+  }
+
+  .main-picture {
+    width: 100px;
+  }
+
+  .description-section {
+    padding: 0;
+    text-align: center;
+  }
 }
