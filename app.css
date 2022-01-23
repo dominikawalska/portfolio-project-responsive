@@ -47,6 +47,15 @@ p {
   padding: 150px 20px;
 }
 
+.about-hero h1 {
+  font-size: 64px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--basic-font);
+}
+
 .main-picture {
   width: 130px;
   height: auto;
@@ -75,6 +84,18 @@ p {
   padding: 120px 60px;
 }
 
+.about-hero {
+  padding: 150px 20px;
+}
+
+.about-hero-description {
+  margin: 50px;
+}
+
+.dominika-photo {
+  width: 600px;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 50px;
@@ -88,11 +109,20 @@ p {
     padding: 80px 20px;
   }
 
+  .about-hero {
+    padding: 20px 20px;
+  }
+
   .main-picture {
     width: 100px;
   }
 
   .description-section {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-hero-description {
     padding: 0;
     text-align: center;
   }
