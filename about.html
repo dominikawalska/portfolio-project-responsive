@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read more about DOminika Walska here. You can also check her projects or see skills and technologies she has worked with."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,14 +25,39 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="app.css" />
-    <title>About me</title>
+    <title>Dominika Walska - About me</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img src="/src/logo.png" alt="Dominika's logo" class="logo"
+        /></a>
+
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Dominika">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Dominika's projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Dominika">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <h1 class="mb-4">Hi, I am Dominika Walska</h1>
+            <h1 class="mb-4">
+              Hi, I am
+              <div class="details">Dominika Walska</div>
+            </h1>
             <h2 class="mb-4">Front-end developer based in Poland</h2>
             <p class="mb-4">
               I tried many disciplines before I decided to become a front-end
@@ -41,7 +70,10 @@
               SheCodes. After work I like to chill with a good book or level up
               my energy in pole dance classes.
             </p>
-            <a href="#" class="btn btn-branding main-button"
+            <a
+              href="/work.html"
+              class="btn btn-branding main-button"
+              title="Dominika's projects"
               >View my projects</a
             >
           </div>
@@ -49,11 +81,68 @@
         <div class="col-lg-6">
           <img
             src="/src/dominika-photo-about-page.jpg"
-            alt=""
+            alt="Dominika Walska's photo"
             class="img-fluid rounded dominika-photo"
           />
         </div>
       </div>
+      <footer>
+        <div
+          class="inquiry-box d-flex justify-content-between d-none d-md-flex"
+        >
+          <div>
+            <h2>Work Inquiry</h2>
+            <p>Let's create something awesome together!</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <a
+              href="/contact.html"
+              class="d-flex btn btn-branding main-button"
+              title="Contact Dominika Walska"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:dominikawalska@gmail.com"
+            class="email"
+            title="Send Dominika Walska an email"
+            >dominikawalska@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="mailto:dominikawalska@gmail.com"
+            title="Send Dominika Walska an email"
+            target="_blank"
+          >
+            <i class="fas fa-at"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dominika-walska-4937a312a/"
+            title="Link to Dominika Walska's LinkedIn profile"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/dominikawalska"
+            title="Link to Dominika Walska's GitHub profile"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="text-center mt-5">
+          This project was coded by Dominika Walska and it is
+
+          <a
+            href="https://github.com/dominikawalska/portfolio-project-responsive"
+            >open-sourced</a
+          >
+        </div>
+      </footer>
     </div>
   </body>
 </html>

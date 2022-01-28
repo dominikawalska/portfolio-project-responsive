@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="You can contact Dominika Walska via email, or check out her account on LinkedIn or GitHub. You can also download Dominika's CV."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,31 +25,111 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="app.css" />
-    <title>Document</title>
+    <title>Dominika Walska - contact me</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img src="/src/logo.png" alt="Dominika's logo" class="logo"
+        /></a>
+
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Dominika">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Dominika's projects">Projects</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Dominika">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
       <div class="content text-center">
-        <h1 class="mb-5">Let's get in touch!</h1>
+        <h1 class="mb-5">Let's get in touch<span class="details">!</span></h1>
         <h3 class="mt-5">Email</h3>
         <p>
-          <a href="mailto:dominikawalska@gmailcom">dominikawalska@gmailcom</a>
+          <a
+            href="mailto:dominikawalska@gmailcom"
+            title="Send email to Dominika Walska"
+            >dominikawalska@gmailcom</a
+          >
         </p>
         <h3 class="mt-5">LinkedIn</h3>
         <p>
-          <a href="https://www.linkedin.com/in/dominika-walska-4937a312a/"
+          <a
+            href="https://www.linkedin.com/in/dominika-walska-4937a312a/"
+            title="Go to Dominika Walska's GitHub profile"
+            target="_blank"
             >@dominikawalska</a
           >
         </p>
         <h3 class="mt-5">GitHub</h3>
         <p>
-          <a href="https://github.com/dominikawalska">@dominikawalska</a>
+          <a
+            href="https://github.com/dominikawalska"
+            title="Go to Dominika Walska's GitHub profile"
+            target="_blank"
+            >@dominikawalska</a
+          >
         </p>
         <h3 class="mt-5">CV</h3>
         <p>
-          <a href="#" class="btn btn-branding main-button">Download CV</a>
+          <a
+            href="/src/Dominika-Walska-CV-Developer.pdf"
+            download=""
+            class="btn btn-branding main-button"
+            title="Download CV of Dominika Walska"
+            >Download CV</a
+          >
         </p>
       </div>
+      <footer>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:dominikawalska@gmail.com"
+            class="email"
+            title="Send Dominika Walska an email"
+            >dominikawalska@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="mailto:dominikawalska@gmail.com"
+            title="Send Dominika Walska an email"
+          >
+            <i class="fas fa-at"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dominika-walska-4937a312a/"
+            title="Link to Dominika Walska's LinkedIn profile"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/dominikawalska"
+            title="Link to Dominika Walska's GitHub profile"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="text-center mt-5">
+          This project was coded by Dominika Walska and it is
+
+          <a
+            href="https://github.com/dominikawalska/portfolio-project-responsive"
+            >open-sourced</a
+          >
+        </div>
+      </footer>
     </div>
   </body>
 </html>
