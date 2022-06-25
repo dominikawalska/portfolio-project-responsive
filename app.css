@@ -160,6 +160,10 @@ nav li.active a {
   color: #c19898;
 }
 
+.carousel-item {
+  text-align: center;
+}
+
 footer .inquiry-box {
   background-color: var(--primary-color);
   padding: 30px 100px;
