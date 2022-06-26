@@ -133,11 +133,16 @@ nav li.active a {
 }
 
 .card-styling {
+  margin: 0 auto;
   color: var(--secondary-color);
   background-color: var(--primary-color);
   border: none;
-  /* border: 1px solid var(--primary-color); */
   box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.carousel-img {
+  height: 100%;
 }
 
 .description-section {
@@ -158,10 +163,6 @@ nav li.active a {
 
 .details {
   color: #c19898;
-}
-
-.carousel-item {
-  text-align: center;
 }
 
 footer .inquiry-box {
