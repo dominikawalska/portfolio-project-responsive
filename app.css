@@ -55,7 +55,8 @@ a {
 }
 
 footer {
-  margin: 0px 0;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 a:hover {
@@ -154,7 +155,7 @@ nav li.active a {
 }
 
 .content {
-  margin: 0 50px;
+  margin-bottom: 100px;
 }
 
 .dominika-photo {
@@ -168,8 +169,7 @@ nav li.active a {
 footer .inquiry-box {
   background-color: var(--primary-color);
   padding: 30px 100px;
-  border-radius: 10px;
-  margin: 150px 0;
+  margin-bottom: 100px;
 }
 
 footer .inquiry-box p {
@@ -217,8 +217,16 @@ footer .social-links a {
     margin-left: 5px;
   }
 
+  footer {
+    margin: 50px;
+  }
+
+  footer .email {
+    font-size: 20px;
+  }
   .page-hero {
-    padding: 80px 20px;
+    padding: 100px 20px;
+    margin: 30px 0;
   }
 
   .content-container {
@@ -241,6 +249,12 @@ footer .social-links a {
   }
 
   .card-styling {
-    margin: 10px;
+    margin: 0 auto;
+  }
+  .inquiry-box {
+    width: 100%;
+  }
+  .main-button {
+    margin: 0 auto;
   }
 }
