@@ -216,7 +216,9 @@ footer .social-links a {
     font-size: 14px;
     margin-left: 5px;
   }
-
+  .logo {
+    max-height: 50px;
+  }
   footer {
     margin: 50px;
   }
@@ -251,10 +253,8 @@ footer .social-links a {
   .card-styling {
     margin: 0 auto;
   }
-  .inquiry-box {
-    width: 100%;
-  }
-  .main-button {
-    margin: 0 auto;
+
+  .footer-text {
+    font-size: 8px;
   }
 }
